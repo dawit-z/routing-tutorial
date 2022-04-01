@@ -10,6 +10,7 @@ import { HelpComponent } from './help/help.component';
 import { RevisionComponent } from './revision/revision.component';
 import { AdminComponent } from './admin/admin.component';
 import { AdminLoginComponent } from './admin-login/admin-login.component';
+import { MenuComponent } from './menu/menu.component';
 
 @NgModule({
   declarations: [
@@ -19,7 +20,8 @@ import { AdminLoginComponent } from './admin-login/admin-login.component';
     HelpComponent,
     RevisionComponent,
     AdminComponent,
-    AdminLoginComponent
+    AdminLoginComponent,
+    MenuComponent
   ],
   imports: [
     BrowserModule,
